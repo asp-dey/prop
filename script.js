@@ -308,7 +308,7 @@ function draw() {
   drawText();
 
   if (frameNumber < 99999) {
-    frameNumber=frameNumber+4;
+    frameNumber=frameNumber+10;
   }
   window.requestAnimationFrame(draw);
 }
